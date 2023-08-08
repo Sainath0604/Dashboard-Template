@@ -1,9 +1,15 @@
 import Sidebar from "./Sidebar";
+import Content from "./Content";
 
 export default function Home() {
   return (
     <div>
-      <Sidebar />
+      <div>
+        <Sidebar />
+      </div>
+      <div>
+        <Content />
+      </div>
     </div>
   );
 }

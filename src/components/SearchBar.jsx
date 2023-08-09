@@ -9,7 +9,7 @@ import userImg from "../UserImage/userImg.png";
 
 export default function SearchBar() {
   return (
-    <div>
+    <div className="w-full">
       <div className="grid grid-cols-1 mb-4">
         <div className="flex justify-between h-20 bg-gray-50 border-b shadow-md p-2 items-center">
           <div>

@@ -11,7 +11,7 @@ export default function SearchBar() {
   return (
     <div className="w-full">
       <div className="grid grid-cols-1">
-        <div className="flex justify-between h-20 bg-white border-b shadow-md p-2 items-center">
+        <div className="flex lg:justify-between lg:h-20 bg-white border-b shadow-md p-2 lg:items-center">
           <div>
             <span className="flex items-center gap-2 lg:ml-10">
               <span className="text-gray-400 p-2">
@@ -24,7 +24,7 @@ export default function SearchBar() {
               />
             </span>
           </div>
-          <div className="lg:mr-2 flex items-center gap-6">
+          <div className="lg:mr-2 flex flex-col lg:flex-row items-center gap-6">
             <div>
               <ul className="flex gap-4 text-gray-400">
                 <li>

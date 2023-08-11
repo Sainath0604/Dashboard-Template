@@ -46,7 +46,7 @@ function AdminNav() {
                     <Disclosure>
                       {({ open }) => (
                         <>
-                          <Disclosure.Button className="flex gap-2 justify-between w-full items-center text-xs hover:bg-[#362bd2] hover:text-white py-2 px-4 rounded-md">
+                          <Disclosure.Button className="flex bg-[#362bd2] text-white gap-2 justify-between w-full items-center text-xs hover:bg-[#362bd2] hover:text-white py-2 px-4 rounded-md">
                             <div className="flex gap-2">
                               <span className="text-lg text-gray-400/75">
                                 <DashboardIcon />

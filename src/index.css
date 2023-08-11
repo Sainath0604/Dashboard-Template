@@ -18,3 +18,50 @@
   border-radius: 10px;
   background: #616161;
 }
+
+.ag-header-cell {
+  color: #66798e;
+  font-size: small;
+  font-weight: 400;
+  border-bottom: none !important;
+  background-color: #fff;
+}
+.even-row {
+  background-color: #f0f0f0; /* Replace with your color */
+}
+
+.ag-row-even {
+  background-color: #f1f4f9; /* Replace with your color */
+}
+.divtable {
+  background-color: #fff;
+  border-radius: 0.4em;
+  margin: auto;
+  width: 80%;
+}
+.divtable h3 {
+  font-size: larger;
+  font-weight: 600;
+  padding: 20px;
+}
+.ag-center-cols-viewport {
+  width: 100%;
+  overflow-x: hidden;
+}
+.Tabbt {
+  font-weight: 500;
+  color: #677990;
+  padding: 10px;
+}
+.activebt {
+  color: #382bdb;
+  border-bottom: 2px solid #382bdb;
+}
+.exportbtn {
+  background-color: #382bdb;
+  font-size: medium;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 0.4em;
+  color: #fff;
+}
